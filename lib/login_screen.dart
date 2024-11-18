@@ -17,6 +17,7 @@ class LoginScreen extends StatelessWidget {
       },
       child: Scaffold(
         backgroundColor: Color(0xFFeef4ec),
+        resizeToAvoidBottomInset: false,
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
